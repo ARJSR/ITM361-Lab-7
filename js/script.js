@@ -5,8 +5,9 @@ function init(){
   var name = document.getElementById('center');
   
   button.addEventListener('click', function(){
-  alert(name.textContent + ": " + entry.value);
-  text.innerHTML = entry.value;)
+    text.innerHTML = entry.value;
+	alert(name.textContent + ": " + entry.value);
+  });
 
 }
 
