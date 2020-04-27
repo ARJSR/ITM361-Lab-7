@@ -1,12 +1,12 @@
 function init(){
-  var button = document.getElementById('entrybutton');
-  var entry = document.getElementById('entryinput');
-  var text = document.getElementById('entryoutput');
-  var name = document.getElementById('center');
+	var button = document.getElementById("entrybutton");
+	var input = document.getElementById("entryinput");
+	var output = document.getElementById("textoutput");
+	var name = document.getElementById("center");
   
-  button.addEventListener('click', function(){
-    text.innerHTML = entry.value;
-	alert(name.textContent + ": " + entry.value);
+	button.addEventListener("click", function(){
+		output.innerHTML = input.value;
+		alert(name.textContent + ": " + input.value);
   });
 
 }
